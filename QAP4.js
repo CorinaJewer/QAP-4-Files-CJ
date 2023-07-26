@@ -57,6 +57,7 @@ console.log(motelCustomer)
 let html;
 
 html = `<h2> Motel Customer Information</h2>
+<p><strong>Identification:</strong> ${motelCustomer.identification}</p>
 <p><strong>Name:</strong> ${motelCustomer.first} ${motelCustomer.last}</p>
 <p><strong>Age:</strong> ${motelCustomer.calculateAge()}</p>
 <p><strong>Gender:</strong> ${motelCustomer.gender}</p>
